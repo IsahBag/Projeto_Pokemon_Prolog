@@ -2,20 +2,23 @@
 
 *Projeto de final de semestre da matéria de Programação em Lógica da Fatec, utilizando Prolog.*
 
-## 💻 Tecnologia utilizada:
+## 💻 Tecnologias utilizadas:
 
-* [SWI-Prolog](hhttps://www.swi-prolog.org/)
+* [SWI-Prolog](https://www.swi-prolog.org/)
+* [Chat GPT](https://chatgpt.com/)
 
 ## 💡 Sobre o projeto:
 
 Quis fazer um programinha que retornasse dentre dois pokémons escolhidos, qual venceria. Também criei uma listagem para mostrar todos os pokémons que derrotariam, seriam derrotados e empatariam com um pokémon escolhido.
 
-Para o desenvolvimento do projeto, criei uma base de dados com todos os pokemons da região de Kanto, incluindo seu tipo primário, tipo secundário, ataque, defesa e HP. Para incluir essas informações, escrevi a seguinte cláusula para cada pokemon, sendo que cada uma dessas cláusulas corresponde ao um 'fato' segundo a lógica do prolog:
+Para o início do projeto, pesquisei no chat GPT a tabela com todos os pokémons de Kanto e seus dados, e também quais as vantagens e desvantagens que cada tipo possui sobre os demais.
+
+Feita a pesquisa, criei uma base de dados com todos os pokémons, incluindo seu tipo primário, tipo secundário, ataque, defesa e HP. Para incluir essas informações, escrevi a seguinte cláusula para cada pokemon, sendo que cada uma dessas cláusulas corresponde ao um 'fato' segundo a lógica do prolog:
 ```
 pokemon(nome_pokemon, tipo_1, tipo_2, ataque, defesa, HP).
 ```
 
-Em seguida, criei uma outra base para definir todos os tipos de pokemons existentes, além de indicar sobre quais os tipos possui vantagens e desvantagens. Para isso, foram criados os seguintes formatos de cláusulas (fatos):
+Em seguida, criei uma outra base para definir todos os tipos de pokémons existentes, além de indicar sobre quais os tipos possui vantagens e desvantagens. Para isso, foram criados os seguintes formatos de cláusulas (fatos):
 ```
 tipo(nome_tipo, [tipos_vantagens], [tipos_desvantagens]).
 ```

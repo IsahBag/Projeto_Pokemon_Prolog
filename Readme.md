@@ -24,4 +24,4 @@ Depois de incluir todos os dados necessários, foi necessário desenvolver todas
 
 Por fim, coloquei como as consultas ao sistemas devem ser feitas para o retorno correto do resultado.
 
-🎆 [Clique aqui](/program/projeto_final) para acessar o programinha pronto!
+🎆 [Clique aqui](/program/projeto_final.pl) para acessar o programinha pronto!
